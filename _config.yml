@@ -2,7 +2,7 @@
 title: Natasha's Blog
 description: "Natasha L's Blog and CV"
 baseurl: "/"
-url:
+url: "https://natasha.today"
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: Europe/Warsaw
