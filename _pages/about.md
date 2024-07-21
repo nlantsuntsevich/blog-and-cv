@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: page
 title: "About"
 permalink: /about/
---- -->
+---
 
 <!DOCTYPE HTML>
 <html lang="en-US">
