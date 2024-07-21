@@ -1,11 +1,11 @@
 # Site settings
-title:          Tail
-description:    "Minimal Jekyll blog theme"
-baseurl:        "/tail"
+title: Natasha's Blog
+description: "Natasha L's Blog and CV"
+baseurl: "/"
 url:
 
 # https://jekyllrb.com/docs/configuration/options/
-timezone: Asia/Kolkata
+timezone: Europe/Warsaw
 
 # Google Analytics
 google_analytics:
@@ -14,23 +14,23 @@ google_analytics:
 #   This is the default author name displayed on all posts, can be overridden by setting a different `author: Your Name`
 #   in the frontmatter
 author:
-  name:         Your Name
+  name: Natasha L.
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 highlighter: rouge
 
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
+
 include:
   - _pages
 
 # Assets
 sass:
-  sass_dir:     /assets/css/_sass
-  style:        compressed
+  sass_dir: /assets/css/_sass
+  style: compressed
 
 # Gems
 plugins:
@@ -39,8 +39,8 @@ plugins:
   - jekyll-seo-tag
 
 # Permalinks
-permalink:      /:title
-paginate:       5
+permalink: /:title
+paginate: 5
 
 # Excludes
 exclude:
