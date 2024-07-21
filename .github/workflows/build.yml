@@ -40,7 +40,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./github_deploy
-          publish_branch: main
+          publish_branch: build
           force_orphan: true
           enable_jekyll: true
   copy-index-to-build:
@@ -50,8 +50,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      # - name: Copy To Branches Action
-      #   uses: planetoftheweb/copy-to-branches@v1.3
-      #   env:
-      #     key: main
-      #     files: index.html CNAME
+      - name: Copy To Branches Action
+        uses: planetoftheweb/copy-to-branches@v1.3
+        env:
+          key: main
+          files: about.md 
