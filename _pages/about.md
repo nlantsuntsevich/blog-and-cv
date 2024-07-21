@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-permalink: /contacts/
+permalink: /about/
 ---
 
 This theme builds upon an amazing theme called [Tale](https://github.com/chesterhow/tale). Apart from the minor fixes to Tale, this theme is designed to make it easier to maintain a blog.
