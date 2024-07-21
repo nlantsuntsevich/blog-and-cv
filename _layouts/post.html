@@ -10,9 +10,8 @@ layout: default
     <br />
     <span>on&nbsp;</span
     ><time datetime="{{ page.date }}"
-      >{{ page.date | date: "%B %d, %Y" }} {% include read_time.html
-      content=page.content %}</time
-    >
+      >{{ page.date | date: "%B %d, %Y" }}
+    </time>
     <span> and last updated on&nbsp;</span
     ><time datetime="{{ page.lastmod }}"
       >{{ page.lastmod | date: "%B %d, %Y" }}</time
@@ -37,7 +36,7 @@ layout: default
       datetime="{% capture lastmod_date %}{% last_modified {{ post.path }} %}{% endcapture %}"
       >{{ lastmod_date | date: "%B %d, %Y" }}</time
     >
-    {% endif %}
+    {% endif %} {% include read_time.html content=page.content %}
   </div>
 
   <h1 class="post-title">{{ page.title }}</h1>
