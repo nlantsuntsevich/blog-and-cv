@@ -18,4 +18,5 @@ jobs:
           root_file: ${{ env.FILE }}
           working_directory: ${{ env.DIR }}
       - uses: stefanzweifel/git-auto-commit-action@v5
-        file_pattern: "*.pdf"
+        with:
+          file_pattern: "*.pdf"
