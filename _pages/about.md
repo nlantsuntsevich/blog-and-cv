@@ -1,26 +1,30 @@
-<!-- ---
+---
 layout: page
 title: "About"
 permalink: /about/
---- -->
+---
 
-<!DOCTYPE HTML>
+<!-- <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        <meta charset="UTF-8">      
-        
+        <meta charset="UTF-8">
+
         <!--You can add your name and affiliation below to personalise -->
+
         <meta property="og:title" content="My CV"/>
-        
+
         <!--You can add your keywords to personalise-->
         <meta property="og:description" content="Education, Experience, Projects etc."/>
-        
+
         <meta property="og:image" content="https://dummyimage.com/100x100/000/fff&text=CV" />
         <title>CV</title>
     </head>
-    <body>
+    <body> -->
+
     <script type="text/javascript">
-        window.location.href = "./cv.pdf"
+        window.location.href = "/about/cv.pdf"
     </script>
-    </body>
-</html>
+
+    <!-- </body>
+
+</html> -->
