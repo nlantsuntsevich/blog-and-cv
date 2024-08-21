@@ -11,7 +11,6 @@ group :jekyll_plugins do
   gem 'jekyll-email-protect'
   gem 'jekyll-feed'
   gem 'github-pages'
-  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
   #dependeny for custom footnote plugin
   gem 'nokogiri' 
 end
