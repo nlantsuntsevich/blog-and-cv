@@ -26,6 +26,7 @@ kramdown:
 
 include:
   - _pages
+  - "*.tex"
 
 # Assets
 sass:
@@ -49,3 +50,6 @@ exclude:
 
 # Disqus (Set to your disqus id)
 disqus:
+
+# CV
+cv_name: Natasha L.
