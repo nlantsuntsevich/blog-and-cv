@@ -30,7 +30,7 @@ include:
 pdf:
   pdf_engine: lualatex
   author: Natalia
-  #template:
+  template: cv.tex
 
 # Assets
 sass:
