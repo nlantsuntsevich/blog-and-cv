@@ -7,27 +7,26 @@ $grey-2: #e5e5e5 !default;
 $grey-3: #f9f9f9 !default;
 $white: #fff !default;
 $blue: #4a9ae1 !default;
-$shadow-color: rgba(0, 0, 0, .2) !default;
+$shadow-color: rgba(0, 0, 0, 0.2) !default;
 $code-color: #bf616a !default;
 $body-bg: #fff;
-
 
 // Colors
 $default-color-dark: #98a0ac;
 $default-shade-dark: #353535;
 $default-tint-dark: #aaa;
-$shadow-color-dark: rgba(255, 255, 255, .2);
+$shadow-color-dark: rgba(255, 255, 255, 0.2);
 $code-color-dark: #db1400;
-$body-bg-dark: #0F1216;
-
+$body-bg-dark: #0f1216;
 
 // Fonts
-$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
-$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
+$serif-primary: "Libre Baskerville", "Times New Roman", Times, serif !default;
+$serif-secondary: Palatino, "Palatino LT STD", "Palatino Linotype",
+  "Book Antiqua", "Georgia", serif !default;
+$sans-serif: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif !default;
 $monospaced: Menlo, Monaco, monospace !default;
 
-//length variables for responsive design 
+//length variables for responsive design
 //only used in tags.scss for the time being. Todo: standardize useage of sizes across the theme
 $on-phone: 450px;
 
@@ -42,3 +41,27 @@ $on-phone: 450px;
   -moz-transition: $args;
   transition: $args;
 }
+
+////////////////////////////////////////////////////////////////////////////
+// Variables resume
+// ---------------------------------------/
+
+$container-width: 980px !default;
+$grid-gutter: 10px !default;
+
+// Colors
+$white: #fff;
+$black: #333;
+
+// Styles
+$text_color: $black;
+
+// Font stack
+$body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean,
+  sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+// The base body size
+$body-font-size: 13px !default;
+
+// Monospace font stack
+$mono-font: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
