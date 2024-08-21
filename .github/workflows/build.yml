@@ -22,3 +22,11 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: "*.pdf"
+      - name: move
+        run: mkdir -p github_artifacts && mv ${{ env.DIR }}/${{ env.FILE }}.pdf ./github_artifacts/
+
+      - name: Upload pdf as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.FILE }}.pdf
+          path: ./github_artifacts
