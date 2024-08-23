@@ -47,6 +47,11 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: cv
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: cv1
+          working_directory: _tex
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
