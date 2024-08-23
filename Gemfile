@@ -9,7 +9,6 @@ group :jekyll_plugins do
   gem 'jekyll-email-protect'
   gem 'jekyll-feed'
   gem 'jekyll-latex-pdf'
-
   #dependeny for custom footnote plugin
   gem 'nokogiri' 
 end

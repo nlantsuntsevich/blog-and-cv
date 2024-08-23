@@ -27,10 +27,16 @@ kramdown:
 include:
   - _pages
 
-pdf:
-  pdf_engine: lualatex
-  author: Natalia
-  template: cv.tex
+latex_pdf:
+  output_dir: "cv" # Output directory for PDFs
+  tex_dir: "_tex" # Directory where your LaTeX files are stored
+  pdfs:
+    - "cv.tex" # List of LaTeX files to be compiled into PDFs
+
+# pdf:
+#   pdf_engine: lualatex
+#   author: Natalia
+#   template: cv.tex
 
 # Assets
 sass:
