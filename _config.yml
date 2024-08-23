@@ -33,10 +33,10 @@ latex_pdf:
   pdfs:
     - "cv.tex" # List of LaTeX files to be compiled into PDFs
 
-# pdf:
-#   pdf_engine: lualatex
-#   author: Natalia
-#   template: cv.tex
+pdf:
+  pdf_engine: lualatex
+  author: Natalia
+  template: cv.tex
 
 # Assets
 sass:
